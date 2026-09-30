@@ -1,75 +1,32 @@
-# Nuxt Minimal Starter
+# Pokedex UI
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+I wanted to create a beautiful Pokedex UI using technologies I know and use. The focus of this project is UI, even though I will dabble in other areas.
 
-## Setup
+## The Tech I Use
 
-Make sure to install dependencies:
+- Nuxt 4
+- TailwindCSS
+- VueUse
 
+## How to Run
+
+Run the following commandd for local development
+
+> [!NOTE]
+> You need to install dependencies first. And I am currently using the [pnpm](https://pnpm.io/installation) package manager. To install dependencies, run `pnpm install`.
+
+### For running the development server
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
-
+### Creating production build
 ```bash
-# npm
-npm run build
-
-# pnpm
 pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
-
+### Running production preview
 ```bash
-# npm
-npm run preview
-
-# pnpm
 pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
